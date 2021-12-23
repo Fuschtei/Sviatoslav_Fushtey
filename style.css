@@ -18,74 +18,89 @@
 .font-style {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin-left: 20px;
 }
 
-.title{
+.title {
   margin-bottom: 20px;
 }
-.background-image{
+
+.background-image {
   background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
   background-size: contain;
   background-repeat: repeat;
   padding: 50px 15px;
+  width: 100vw;
 }
 
-.name-photo-speciality{
+.name-photo-speciality {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.text-head-part{
+.text-head-part {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.photo-candidate{
+.photo-candidate {
   width: 60vw;
   max-width: 350px;
   box-shadow: 3px 3px 10px black;
   margin-bottom: 20px;
 }
 
-.icon{
+.icon {
   height: 20px;
 }
 
-.title-icon{
+.title-icon {
   height: 30px;
 }
 
-.title{
+.title {
   margin-top: 30px;
   border-bottom: 2px solid black;
+  padding-bottom: 2px;
 }
 
-.display-flex{
+.display-flex {
   display: flex;
   align-items: center;
 }
 
-.basic-info{
+.basic-info {
   justify-content: space-evenly;
   margin-top: 15px;
   flex-wrap: wrap;
 }
-.city{
+
+.place {
   margin-top: 10px;
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.wrap-img{
+.year-study {
+  margin-right: 10px;
+}
+
+.my-city {
+  display: flex;
+}
+
+.wrap-img {
   width: 50px;
   height: 30px;
 }
 
-.wrap-little-img{
+.wrap-little-img {
   width: 35px;
   height: 20px;
 }
@@ -94,23 +109,48 @@
   white-space: pre;
 }
 
-@media (min-width: 768px){
-  .content{
+.sertificate {
+  box-shadow: 3px 3px 10px black;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.wrap-sertificate {
+  display: flex;
+  justify-content: center;
+}
+
+.course{
+  margin-top: 10px;
+}
+
+.year-work{
+  min-width: 100px;
+}
+
+.name-study{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .content {
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
+    ;
   }
 
   .left-column,
-  .right-column{
+  .right-column {
     width: 48%;
   }
 
-  .name-photo-speciality{
+  .name-photo-speciality {
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .photo-candidate{
+  .photo-candidate {
     width: 40vw;
   }
 }
