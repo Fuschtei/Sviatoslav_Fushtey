@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
 .width-and-center {
   margin: auto;
   max-width: 1200px;
@@ -28,7 +33,8 @@
 }
 
 .background-image {
-  background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+  /* background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg); */
+  background: url(https://funart.pro/uploads/posts/2021-04/1618509466_26-funart_pro-p-oboi-fon-fon-stena-28.jpg);
   background-size: contain;
   background-repeat: repeat;
   padding: 50px 15px;
@@ -120,15 +126,15 @@
   justify-content: center;
 }
 
-.course{
+.course {
   margin-top: 10px;
 }
 
-.year-work{
+.year-work {
   min-width: 100px;
 }
 
-.name-study{
+.name-study {
   display: flex;
   flex-direction: column;
 }
