@@ -37,7 +37,8 @@ body {
 }
 
 .background-image {
-  background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+  background: url(.//1618509466_26-funart_pro-p-oboi-fon-fon-stena-28.jpg);
+  /* background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg); */
   background-size: contain;
   background-repeat: repeat;
   padding: 50px 15px;
