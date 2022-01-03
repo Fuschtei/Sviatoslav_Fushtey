@@ -5,19 +5,23 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-  width: 100vw;
-}
-
 .width-and-center {
   margin: auto;
   max-width: 1200px;
 }
 
 :root {
-  font-size: 1rem;
+  font-size: 15px;
   font-family: "Dosis", sans-serif;
+}
+
+body{
+  min-width: 320px;
+}
+
+.margin-left-right {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .font-style {
@@ -38,11 +42,12 @@ body {
 
 .background-image {
   background: url(.//1618509466_26-funart_pro-p-oboi-fon-fon-stena-28.jpg);
-  /* background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg); */
+  background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
   background-size: contain;
   background-repeat: repeat;
-  padding: 50px 15px;
-  width: 100vw;
+  padding: 50px 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .name-photo-speciality {
@@ -53,6 +58,7 @@ body {
 
 .name-candidate {
   font-size: 3rem;
+
 }
 
 .text-head-part {
@@ -62,7 +68,7 @@ body {
 }
 
 .photo-candidate {
-  width: 60vw;
+  width: 60%;
   max-width: 350px;
   box-shadow: 3px 3px 10px black;
   margin-bottom: 20px;
@@ -145,6 +151,20 @@ body {
 .name-study {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .name-candidate {
+    font-size: 2.8rem;
+  }
+
+  .years {
+    text-align: center;
+  }
+
+  .name-candidate{
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
